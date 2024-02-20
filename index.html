@@ -38,16 +38,19 @@
             width:460px;
         }
         .btncontainer{
-            border-radius: 28px;
-            display: flex;
-            justify-content: center;
-            background-color: black;
-            align-items: center;
-            margin-left:150px;
-            border:4px solid ;
-            border-image: linear-gradient(107deg, rgb(6, 250, 254), rgba(251, 5, 215)) 1;
             width: 150px;
             height:50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left:150px;
+
+            border-radius: 20px;
+            border:double 5px transparent;
+            background-image: linear-gradient(black,black),
+            linear-gradient(107deg, rgb(6, 250, 254), rgba(251, 5, 215));
+            background-origin: border-box;
+            background-clip:content-box,border-box;            
         }
         .shadow{
             width: 750px;
