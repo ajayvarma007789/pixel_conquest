@@ -16,6 +16,7 @@ body{
     width:800px;
 }
 h1{
+    
     font-size: 64px;
     background: linear-gradient(180deg, #FFF 0%, rgba(0, 0, 0, 0) 110.32%);           
     -webkit-background-clip: text;
@@ -34,7 +35,7 @@ h1{
     align-items: center;
     margin-top:80px;
 
-    border-radius: 20px;
+    border-radius: 30px;
     border:double 5px transparent;
     background-image: linear-gradient(black,black),
     linear-gradient(107deg, rgb(6, 250, 254), rgba(251, 5, 215));
@@ -55,8 +56,44 @@ h1{
 }
 
 hr{
-    margin-top: 200px;
+    margin-left:20px;
+    margin-top: -150px;
     width:1350px;   
     height:1px; 
-    color: white;
+    opacity: 0.5;
+    background: #FFF;
 }
+canvas{
+    margin-top:-40px;
+    width: 1400px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 27px;
+    background: #353535;
+}
+p{
+    width: 187px;
+    height: 39.571px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+.cont2{
+    margin-top:-140px;
+    display: flex;
+    justify-content:space-around;
+}
+#colorpick{
+    border-radius: 10px;
+    border: 3px solid #848484;
+    width:100px;
+    height:100px;
+    border:none;
+    cursor: pointer;
+}
+
